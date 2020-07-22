@@ -19,13 +19,12 @@ parallel processing). Recall that postgresql offers ACID transaction
 support so that reading might be slow on high volumes of data. 
 We conducted a pilot with a **cassandra** 
 Nosql( see [here](http://garisplace.com/udacity/cassandra_project.html) ),
-which solved the storage capacity problem, as well as the highly Availity 
-problem, however, the business team found it hard to understand the 
-new model, which is query-based, to make matters worst, since there is 
-still no query consensus, some employees complained saying things 
+which solved the storage capacity problem, as well as the availability 
+problem, however, the business team found the 
+new model very hard to understand (query-based), some employees complained saying things 
 like "the new model cuts on creativity", or "where did my freedom go?". 
 
-In this scenario, AWS offers a good solution. It can keep the start 
+In this scenario, AWS offers a good solution. It can keep the star 
 scheme on Redshift while solving the data storage problem with S3, additionally,
 since Redshift is a massively parallel processing database, it also ensures 
 availability for the businesses analytic team. 
