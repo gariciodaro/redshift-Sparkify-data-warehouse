@@ -9,6 +9,7 @@ to Redshift instances on your behalf.
 Attach  policy to read-only to S3 services.
 """
 
+# lib for AWS
 import boto3
 import configparser
 config = configparser.ConfigParser()

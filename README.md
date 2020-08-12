@@ -18,10 +18,10 @@ possible, high availability is becoming increasingly important (we need
 parallel processing). Recall that postgresql offers ACID transaction 
 support so that reading might be slow on high volumes of data. 
 We conducted a pilot with a **cassandra** 
-Nosql( see [here](http://garisplace.com/udacity/cassandra_project.html) ),
+Nosql (see [here](http://garisplace.com/udacity/cassandra_project.html)),
 which solved the storage capacity problem, as well as the availability 
 problem, however, the business team found the 
-new model very hard to understand (query-based), some employees complained saying things 
+new model (query-based) very hard to understand, some employees complained saying things 
 like "the new model cuts on creativity", or "where did my freedom go?". 
 
 In this scenario, AWS offers a good solution. It can keep the star 
